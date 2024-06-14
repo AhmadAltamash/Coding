@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility Tutorial</title>
+    <style>
+        .container {
+    position: relative;
+}
+
+.visible-element {
+    background-color: lightblue;
+    padding: 10px;
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+}
+
+.hidden-element {
+    visibility: hidden; /* Initially hidden */
+    position: absolute;
+    top: 100%; /* Position below the visible element */
+    left: 0;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* Reveal hidden element on hover */
+.visible-element:hover + .hidden-element {
+    visibility: visible;
+}
+
+/* Reveal hidden element on tap (active state) */
+.visible-element:active + .hidden-element {
+    visibility: visible;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="visible-element">
+            Hover or Tap Me!
+        </div>
+        <div class="hidden-element">
+            Surprise! You found me!
+        </div>
+    </div>
+</body>
+</html>

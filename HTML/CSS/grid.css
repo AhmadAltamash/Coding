@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(161, 56, 236);
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+#grid {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 25px;
+    list-style: none;
+}
+
+body {
+    background-image: url(../Media/formimg.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+img:hover {
+    width: 50vw;
+    height: 50vh;
+}
+
+img {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transition: width;
+    transition: height;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+li {
+    padding: 20px 0;
+}

@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 25%;
+  width: 100vw;
+  overflow: hidden;
+  margin: auto;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}
+img {
+  border: 5px solid transparent;
+}
+.img1 {
+  transform: translate(0vw);
+  animation: img2 5s 2s infinite alternate;
+}
+@keyframes img1 {
+  from {
+    transform: translate(0vw);
+  }
+  to {
+    transform: translate(100vw);
+  }
+}
+.img2 {
+  transform: translate(0vw);
+  animation: img2 5s 2s infinite alternate;
+}
+@keyframes img2 {
+  from {
+    transform: translate(0vw);
+  }
+  to {
+    transform: translate(100vw);
+  }
+}
+.img3 {
+  transform: translate(0vw);
+  animation: img2 5s 2s infinite alternate;
+}
+@keyframes img3 {
+  from {
+    transform: translate(0vw);
+  }
+  to {
+    transform: translate(100vw);
+  }
+}
+.box {
+  width: 10px;
+  height: 10px;
+  /* background-color: rosybrown;
+    color: black; */
+  /* background-image: url(../Media/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* animation-name: animate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+  animation: animate 5s ease-in infinite alternate;
+}
+
+/* img {
+    rotate: 0deg;
+    animation: animate 5s 4s infinite normal;
+} */
+.bar {
+  background-color: red;
+  height: 4px;
+  width: 0px;
+  animation: bar 4s normal;
+}
+@keyframes bar {
+  10% {
+    width: 0px;
+  }
+  50% {
+    width: 80vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+/* @keyframes animate {
+
+    from
+    {
+        width: 300px;
+        height: 300px;
+        rotate: 0deg;
+    }
+    to{
+        height: 400px;
+        width: 400px;
+        rotate: 360deg;
+    }
+} */

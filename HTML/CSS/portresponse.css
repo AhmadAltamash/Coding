@@ -1,0 +1,44 @@
+/* @media screen and (max-width:615px)
+{
+   header{
+    height: 14vh;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px ;
+   }
+} */
+@media screen and (max-width: 650px) {
+   header {
+       display: inline-block;
+   }
+
+   #navig {
+       display: inline-block;
+   }
+
+   #navig a {
+      margin: 0% 15px;
+      display: inline-block;
+      font-size: small;
+   }
+   header nav{
+      display: flex;
+      justify-content: center;
+   }
+   body{
+      margin: 0px;
+      padding: 0px;
+      font-size: 0.8rem;
+   }
+   .big {
+      font-size: 0.9rem;
+      margin-left: 40px;
+   }
+   #i{
+      font-size: 1.3rem;
+   }
+   .out{
+      font-size: 2.5rem;
+      margin-left: 40px;
+   } 
+}

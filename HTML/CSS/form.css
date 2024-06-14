@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../Media/img.avif)
+}
+#head{
+    background-color: wheat;
+    text-shadow: black;
+    color: rgb(34, 8, 8);    
+}
+.box{
+   border: 2px solid black;
+   border-radius: 5px;
+   
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    border-radius: 10px;
+    opacity: 0.75;
+    color: black;
+}
+form{
+    font-weight: bold;
+}
+label{
+    color: white;
+}
+#pass{
+    border: 2px solid black;
+    border-radius: 5px;
+}

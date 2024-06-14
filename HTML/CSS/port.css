@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+body{
+    /* background-image: url(../Media/portf.png);
+    background-size: cover; */
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    color: black;
+    background-color: transparent;
+    height: 10vh;
+    width: 100vw;
+    text-decoration: none;
+}
+header nav{
+    display: flex;
+    justify-content:flex-end;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+header nav ul a{
+    padding: 8px 14px;
+}
+#navig a{
+    font-weight: bolder;
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 15px;
+}
+#navig a.active{
+    background-color: rgb(60, 153, 122);
+}
+header nav ul a:hover{
+    transition:  0.5s ease all;
+    font-weight:bold;
+    background-color: rgb(60, 153, 122);
+}
+main section{
+    min-height: calc(100vh - 10vh - 7vh);
+}
+.info{
+    color: rgb(0, 0, 0);
+}
+.big{
+    color: black;
+    font-size: 2.3vw;
+    margin-left: 80px;
+}
+.out{
+    color: rgb(49, 126, 101);
+    margin-left: 80px;
+    font-size: 5.7vw;
+}
+.content{
+    font-size: 1.2em;
+    position: absolute;
+    left: 50%;
+    bottom: 75%;
+}
+#i{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 3vw;
+}
+#bigcontain
+{
+    display: flex;
+    justify-content: space-around;
+}
+.container
+{
+    box-sizing: content-box;
+    width: 19em;
+    height: 23em;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px 0 rgb(212, 212, 212);
+}
+.profile{
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid transparent;
+    border-radius: 30px 30px 0px 0px;
+}
+.profile img
+{
+    width: 10em;
+    height: 10em;
+    padding: 40px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+}
+.profile img:hover{
+    transition:  0.5s ease-in-out ;
+    width: 12em;
+    height: 12em;
+    padding: 40px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+}
+.links{
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 124, 125);
+    border: 0px solid transparent;
+    border-radius:  0px 0px 30px 30px;
+}
+.links a{
+    padding: 0 1.5em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+.links a:hover{
+    transition:  0.6s ease all;
+    color: rgb(190, 255, 241);
+}
+footer{
+    width: 100vw;
+    height: 7vh;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(22, 3, 3);
+    background-color: transparent;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+/* .icons a{
+    padding: 0px 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+.icons:hover{
+    transition:  0.3s ease-in all;
+    font-size:  2.5em;
+} */

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            div{
+                display: grid;
+                background-color: cadetblue;
+                grid-row: span;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <table cellspacing border="2">
+                <thead>
+                <tr>
+                    <th> Sr No. </th>
+                    <th> Name of Doctors </th>
+                    <th> Speaciality </th>
+                    <th> Fees </th>
+                    <th> Clinic </th>
+                </tr>
+                </thead>
+                <tbody><tr>
+                    <td>001</td>
+                    <td>Dr.Dilshad Ahmad</td>
+                    <td>Dentist</td>
+                    <td>500</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Dr.Shailendra Singh</td>
+                    <td>Physiotherapist</td>
+                    <td>900</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Dr.Lalit Kumar Sinha</td>
+                    <td>M.B.B.S.</td>
+                    <td>700</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Dr.Aashna Naaz</td>
+                    <td>Physiotherapist</td>
+                    <td>600</td>
+                    <td>Yes</td>
+                </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td>2700</td>
+                    </tr>
+                  </tfoot>
+            </table>
+        </div>
+    </body>
+</html>

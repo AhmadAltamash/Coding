@@ -1,0 +1,78 @@
+*{
+   font-family:'calibri';
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    padding-top: 10px;
+    height: 60px;
+}
+body{
+ background-image: url(../Media/Shops-Establishments.jpg);
+ background-repeat: repeat-y;
+ background-size: 100%
+}
+#navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(177, 10, 238);
+    height: 30px;
+    position: sticky;
+    top: 0px;
+    padding-bottom: 10px;
+}
+.list {
+    margin-top: 0;
+    padding-left: 100px;
+    display: flex;
+    align-items: stretch;
+}
+a {
+    color: black;
+    text-decoration: underline;
+}
+#electro {
+     width: 100%;
+     height: 600px;
+     display: inline-flex;
+     right: 0px;
+
+}
+#sms {
+   
+    width: 80px;
+    height: 6px;
+    padding-top: 10px;
+    text-align: center; 
+    border-radius: 5px;
+    display: flex;
+    padding-right: 50px;
+}
+#a1{
+    color: whitesmoke;
+    font-size: 20px;
+}
+#elctro,section {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#cloth, #clo{
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 100px;
+
+}
+h2{
+    text-decoration: underline;
+}
+footer {
+    color: white;
+    height: 26px;
+    text-align: center;
+    background-color: rgb(177, 10, 238);
+    padding-top: 10px;
+}

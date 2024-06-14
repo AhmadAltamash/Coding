@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./CSS/registerform.css">
+    <link rel="shortcut icon" href="./Media/statistic.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="div1">
+        <nav id="navy">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Help</a>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <div id="div2">
+            <h1 class="h">Registration Form</h1>
+            <form id="forme" action="../PHP/form.php">
+                <input type="text" class="inp" id="name" placeholder="First Name">
+                <input type="text" class="inp" id="name" placeholder="Last Name">
+                <input type="email" class="inp" id="email" placeholder="Enter your Email Address">
+                <input type="password" class="inp" id="password" placeholder="Set your Password">
+                <input type="tel+91" class="inp" id="no." placeholder="Enter Your Phone Number">
+                <input type="number" class="inp" id="age" placeholder="Enter Your Age">
+                <button type="submit" class="butt">Register</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        &copy;2021-2024 PVT.LTD. 
+    </footer>
+    <% Class.forName("oracle.jdbc.driver.OracleDriver");%>
+</body>
+</html>

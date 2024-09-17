@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*,;
 class Area
 {
 	static int triangle(int b, int h)
